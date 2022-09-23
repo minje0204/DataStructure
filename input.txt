@@ -1,0 +1,14 @@
+add zero
+add first
+add second
+add third
+add fourth
+print
+get 2
+print
+remove 0
+print
+contains zero
+contains first
+
+
