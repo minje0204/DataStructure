@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class LinkedList<E> {
 
     private Node<E> head;
@@ -51,7 +53,7 @@ public class LinkedList<E> {
     }
 
     public LinkedList() {
-        this.head = new Node<>(null); //E를 쓰는 제너릭인데 초기값을 어떻게 지정해줄까?
+        this.head = new Node<E>(null); //E를 쓰는 제너릭인데 초기값을 어떻게 지정해줄까?
     }
 
     @Override

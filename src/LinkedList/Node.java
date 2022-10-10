@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class Node<E> {
 
     private Node next;
@@ -26,7 +28,7 @@ public class Node<E> {
 
     @Override
     public String toString() {
-        return "Node{" +
+        return "LinkedList.Node{" +
             "next=" + next +
             ", value=" + value +
             '}';
